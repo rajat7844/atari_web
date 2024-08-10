@@ -1,0 +1,388 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+}
+.company-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between the logo and the company name */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: black; /* Ensure the color matches your design */
+}
+
+header {
+    background-color: #d40000;
+    color: #fff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.company-name h1 {
+    margin: 0;
+    color: #000; /* Black color for company name */
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav ul li {
+    margin: 0 20px;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+nav .top-nav .header-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+section.info, section.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.photo-item p {
+    color: #fff;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #d40000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-sections div {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-sections h3 {
+    margin: 0;
+}
+
+.footer-sections ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-sections ul li {
+    margin: 5px 0;
+}
+
+.footer-sections ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-sections ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-with-us .social-media {
+    margin-top: 10px;
+}
+
+.contact-with-us .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contact-with-us .social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.keep-up-to-date form {
+    margin-top: 10px;
+}
+
+.keep-up-to-date input[type="email"] {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+.keep-up-to-date button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #fff;
+    color: #d40000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keep-up-to-date button:hover {
+    background-color: #e6e6e6;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    background-color: #d40000;
+    color: #fff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.company-name h1 {
+    margin: 0;
+    color: #000; /* Black color for company name */
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav ul li {
+    margin: 0 15px;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+nav .top-nav .header-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+section.info, section.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.photo-item p {
+    color: #fff;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #d40000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-sections div {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-sections h3 {
+    margin: 0;
+}
+
+.footer-sections ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-sections ul li {
+    margin: 5px 0;
+}
+
+.footer-sections ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-sections ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-with-us .social-media {
+    margin-top: 10px;
+}
+
+.contact-with-us .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contact-with-us .social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.keep-up-to-date form {
+    margin-top: 10px;
+}
+
+.keep-up-to-date input[type="email"] {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+.keep-up-to-date button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #fff;
+    color: #d40000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.keep-up-to-date button:hover {
+    background-color: #e6e6e6;
+}
